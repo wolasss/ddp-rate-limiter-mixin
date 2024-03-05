@@ -1,7 +1,5 @@
 /* global DDPRateLimiter, Meteor */
 /* eslint import/prefer-default-export: 0 */
-import 'core-js/stable';
-
 const isOptionalStringOrFunction = (val) => typeof val === 'string' || typeof val === 'function' || typeof val === 'undefined';
 
 const isOptionalObject = (val) => typeof val === 'object' || typeof val === 'undefined';
